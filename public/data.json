@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch.",
+    "image": "https://i.postimg.cc/example-course1.png",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "Advanced JavaScript Mastery",
+    "instructor": "Jane Smith",
+    "duration": "15 hours",
+    "rating": 4.7,
+    "level": "Advanced",
+    "description": "Deep dive into modern JavaScript concepts and patterns.",
+    "image": "https://i.postimg.cc/example-course2.png",
+    "category": "Development"
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Design Fundamentals",
+    "instructor": "Emily Johnson",
+    "duration": "12 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Learn the basics of user interface and user experience design.",
+    "image": "https://i.postimg.cc/example-course3.png",
+    "category": "Design"
+  },
+  {
+    "id": 4,
+    "title": "React.js Complete Guide",
+    "instructor": "Michael Brown",
+    "duration": "18 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Master React.js and build dynamic web applications.",
+    "image": "https://i.postimg.cc/example-course4.png",
+    "category": "Development"
+  },
+  {
+    "id": 5,
+    "title": "Python for Data Science",
+    "instructor": "Sarah Lee",
+    "duration": "22 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Analyze data and build models using Python.",
+    "image": "https://i.postimg.cc/example-course5.png",
+    "category": "Data Science"
+  },
+  {
+    "id": 6,
+    "title": "Machine Learning A-Z",
+    "instructor": "David Wilson",
+    "duration": "25 hours",
+    "rating": 4.7,
+    "level": "Advanced",
+    "description": "Learn machine learning algorithms and real-world applications.",
+    "image": "https://i.postimg.cc/example-course6.png",
+    "category": "Data Science"
+  },
+  {
+    "id": 7,
+    "title": "Digital Marketing Masterclass",
+    "instructor": "Laura Martinez",
+    "duration": "10 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Grow your business with digital marketing strategies.",
+    "image": "https://i.postimg.cc/example-course7.png",
+    "category": "Marketing"
+  },
+  {
+    "id": 8,
+    "title": "Graphic Design Essentials",
+    "instructor": "Chris Anderson",
+    "duration": "14 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Learn the principles of graphic design and branding.",
+    "image": "https://i.postimg.cc/example-course8.png",
+    "category": "Design"
+  },
+  {
+    "id": 9,
+    "title": "Node.js API Development",
+    "instructor": "Daniel Thomas",
+    "duration": "16 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Build scalable APIs using Node.js and Express.",
+    "image": "https://i.postimg.cc/example-course9.png",
+    "category": "Development"
+  },
+  {
+    "id": 10,
+    "title": "Cybersecurity Basics",
+    "instructor": "Sophia White",
+    "duration": "11 hours",
+    "rating": 4.4,
+    "level": "Beginner",
+    "description": "Understand the fundamentals of cybersecurity.",
+    "image": "https://i.postimg.cc/example-course10.png",
+    "category": "Security"
+  },
+  {
+    "id": 11,
+    "title": "Mobile App Development with Flutter",
+    "instructor": "James Harris",
+    "duration": "19 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Create cross-platform mobile apps using Flutter.",
+    "image": "https://i.postimg.cc/example-course11.png",
+    "category": "Development"
+  },
+  {
+    "id": 12,
+    "title": "Cloud Computing with AWS",
+    "instructor": "Olivia Clark",
+    "duration": "17 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Learn cloud services and deployment using AWS.",
+    "image": "https://i.postimg.cc/example-course12.png",
+    "category": "Cloud"
+  },
+  {
+    "id": 13,
+    "title": "SQL and Database Management",
+    "instructor": "William Lewis",
+    "duration": "13 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Master SQL queries and database concepts.",
+    "image": "https://i.postimg.cc/example-course13.png",
+    "category": "Database"
+  },
+  {
+    "id": 14,
+    "title": "AI Fundamentals",
+    "instructor": "Emma Walker",
+    "duration": "21 hours",
+    "rating": 4.9,
+    "level": "Beginner",
+    "description": "Introduction to artificial intelligence and its applications.",
+    "image": "https://i.postimg.cc/example-course14.png",
+    "category": "AI"
+  }
+]
