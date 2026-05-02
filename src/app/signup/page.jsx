@@ -51,7 +51,7 @@ export default function SignUpPage() {
 
       <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
         <TextField isRequired name="name" type="text">
-          <Label>Name</Label>
+          <Label>Name Rimon</Label>
           <Input placeholder="Enter your name" />
           <FieldError />
         </TextField>
