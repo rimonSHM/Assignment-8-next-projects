@@ -7,7 +7,7 @@
     "rating": 4.8,
     "level": "Beginner",
     "description": "Learn full-stack web development from scratch.",
-    "image": "https://i.postimg.cc/example-course1.png",
+    "image": "https://i.pinimg.com/736x/9b/15/4c/9b154c6ddc848be1467149fd9c4220ad.jpg",
     "category": "Development"
   },
   {
@@ -18,7 +18,7 @@
     "rating": 4.7,
     "level": "Advanced",
     "description": "Deep dive into modern JavaScript concepts and patterns.",
-    "image": "https://i.postimg.cc/example-course2.png",
+    "image": "https://i.pinimg.com/736x/99/cd/5f/99cd5f429b5e1e68bd14fcf49516245c.jpg",
     "category": "Development"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 4.6,
     "level": "Beginner",
     "description": "Learn the basics of user interface and user experience design.",
-    "image": "https://i.postimg.cc/example-course3.png",
+    "image": "https://i.pinimg.com/736x/4a/d5/a0/4ad5a0873306c143e64fe2837adfcf42.jpg",
     "category": "Design"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 4.9,
     "level": "Intermediate",
     "description": "Master React.js and build dynamic web applications.",
-    "image": "https://i.postimg.cc/example-course4.png",
+    "image": "https://i.pinimg.com/1200x/cf/43/97/cf4397d84ad5f674bc24735b53934c4c.jpg",
     "category": "Development"
   },
   {
@@ -51,7 +51,7 @@
     "rating": 4.8,
     "level": "Intermediate",
     "description": "Analyze data and build models using Python.",
-    "image": "https://i.postimg.cc/example-course5.png",
+    "image": "https://i.pinimg.com/1200x/59/9c/70/599c7056b7ccdcc5501fb462257b4c4e.jpg",
     "category": "Data Science"
   },
   {
@@ -73,7 +73,7 @@
     "rating": 4.5,
     "level": "Beginner",
     "description": "Grow your business with digital marketing strategies.",
-    "image": "https://i.postimg.cc/example-course7.png",
+    "image": "https://i.pinimg.com/736x/46/df/04/46df04133022c354e1be4dda05829b55.jpg",
     "category": "Marketing"
   },
   {
@@ -84,7 +84,7 @@
     "rating": 4.6,
     "level": "Beginner",
     "description": "Learn the principles of graphic design and branding.",
-    "image": "https://i.postimg.cc/example-course8.png",
+    "image": "https://i.pinimg.com/1200x/c3/5b/a1/c35ba1249f08c1ce028e27787abf47fb.jpg",
     "category": "Design"
   },
   {
@@ -95,7 +95,7 @@
     "rating": 4.7,
     "level": "Intermediate",
     "description": "Build scalable APIs using Node.js and Express.",
-    "image": "https://i.postimg.cc/example-course9.png",
+    "image": "https://i.pinimg.com/1200x/bf/c8/42/bfc84217afa890b7b82f85d6e6e7de42.jpg",
     "category": "Development"
   },
   {
@@ -106,7 +106,7 @@
     "rating": 4.4,
     "level": "Beginner",
     "description": "Understand the fundamentals of cybersecurity.",
-    "image": "https://i.postimg.cc/example-course10.png",
+    "image": "https://i.pinimg.com/1200x/71/aa/cf/71aacf0b0ec1d0ba76be59654fa9bfe4.jpg",
     "category": "Security"
   },
   {
@@ -116,7 +116,7 @@
     "duration": "19 hours",
     "rating": 4.8,
     "level": "Intermediate",
-    "description": "Create cross-platform mobile apps using Flutter.",
+    "description": "https://i.pinimg.com/1200x/0a/15/53/0a155393df0b20be1301c3d1ac3fc487.jpg",
     "image": "https://i.postimg.cc/example-course11.png",
     "category": "Development"
   },
@@ -128,7 +128,7 @@
     "rating": 4.7,
     "level": "Intermediate",
     "description": "Learn cloud services and deployment using AWS.",
-    "image": "https://i.postimg.cc/example-course12.png",
+    "image": "https://i.pinimg.com/736x/b2/c4/52/b2c452d3c05ec226124fd0c56a2d9642.jpg",
     "category": "Cloud"
   },
   {
@@ -139,7 +139,7 @@
     "rating": 4.6,
     "level": "Beginner",
     "description": "Master SQL queries and database concepts.",
-    "image": "https://i.postimg.cc/example-course13.png",
+    "image": "https://i.pinimg.com/1200x/82/e1/7d/82e17d60b608a6d29c6cf2e21e2c06d4.jpg",
     "category": "Database"
   },
   {
@@ -150,7 +150,7 @@
     "rating": 4.9,
     "level": "Beginner",
     "description": "Introduction to artificial intelligence and its applications.",
-    "image": "https://i.postimg.cc/example-course14.png",
+    "image": "https://i.pinimg.com/736x/be/ec/a6/beeca6bd372094e5c360b1aefaf6f157.jpg",
     "category": "AI"
   }
 ]
