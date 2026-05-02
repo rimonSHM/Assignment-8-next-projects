@@ -70,7 +70,7 @@ export default function SignUpPage() {
             return null;
           }}
         >
-          <Label>Email</Label>
+          <Label>Email......</Label>
           <Input placeholder="john@example.com" />
           <FieldError />
         </TextField>
