@@ -34,7 +34,7 @@ const PhotoCard = ({photo}) => {
   {/* <Link href={`/courses/${photo.id}`}><Button variant='outline' className={'w-full'}>view</Button></Link> */}
 
       <Link href={`/courses/${photo.id}`}>  <Button variant="outline" className="w-full">
-              view
+              View Details button
              </Button></Link>
       
  
