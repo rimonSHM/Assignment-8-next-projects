@@ -2,14 +2,17 @@
 import { UpdateUserModal } from "@/components/UpdateUserModal";
 import { authClient } from "@/lib/auth-client";
 import { Avatar, Card } from "@heroui/react";
+import { redirect } from "next/navigation";
 
 
 const MyProfilePage = () => {
 
        const userData = authClient.useSession()
          const user = userData?.user;
-         console.log(user);
-         
+        
+        //  if(!user) {
+        //     redirect('/signin')
+        //  }
     return (
         <div>
             <Card className="max-w-90 mx-auto flex flex-col items-center border mt-5">
@@ -17,7 +20,8 @@ const MyProfilePage = () => {
                  <Avatar className="h-20 w-20">
                                  <Avatar.Image 
   alt={user?.name || "User"} 
-  src={user?.image} 
+//   src={user?.image} 
+src="https://img.heroui.chat/image/avatar?w=400&h=400&u=3"
   referrerPolicy="no-referrer" 
 />
                                  <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
