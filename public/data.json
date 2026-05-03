@@ -8,7 +8,7 @@
     "level": "Beginner",
     "description": "Learn full-stack web development from scratch.",
     "image": "https://i.pinimg.com/736x/9b/15/4c/9b154c6ddc848be1467149fd9c4220ad.jpg",
-    "category": "Sci-Fi"
+    "category": "Realistic"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "level": "Advanced",
     "description": "Deep dive into modern JavaScript concepts and patterns.",
     "image": "https://i.pinimg.com/736x/99/cd/5f/99cd5f429b5e1e68bd14fcf49516245c.jpg",
-    "category": "Development"
+    "category": "Fantasy"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "level": "Beginner",
     "description": "Learn the basics of user interface and user experience design.",
     "image": "https://i.pinimg.com/736x/4a/d5/a0/4ad5a0873306c143e64fe2837adfcf42.jpg",
-    "category": "Design"
+    "category": "Sci-Fi"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "level": "Intermediate",
     "description": "Master React.js and build dynamic web applications.",
     "image": "https://i.pinimg.com/1200x/cf/43/97/cf4397d84ad5f674bc24735b53934c4c.jpg",
-    "category": "Development"
+    "category": "Cyberpunk"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "level": "Intermediate",
     "description": "Analyze data and build models using Python.",
     "image": "https://i.pinimg.com/1200x/59/9c/70/599c7056b7ccdcc5501fb462257b4c4e.jpg",
-    "category": "Data Science"
+    "category": "Minimal"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "level": "Advanced",
     "description": "Learn machine learning algorithms and real-world applications.",
     "image": "https://i.postimg.cc/example-course6.png",
-    "category": "Data Science"
+    "category": "Steampunk"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "level": "Beginner",
     "description": "Grow your business with digital marketing strategies.",
     "image": "https://i.pinimg.com/736x/46/df/04/46df04133022c354e1be4dda05829b55.jpg",
-    "category": "Marketing"
+    "category": "Sci-Fi"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "level": "Beginner",
     "description": "Learn the principles of graphic design and branding.",
     "image": "https://i.pinimg.com/1200x/c3/5b/a1/c35ba1249f08c1ce028e27787abf47fb.jpg",
-    "category": "Design"
+    "category": "Pixel Art"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "level": "Intermediate",
     "description": "Build scalable APIs using Node.js and Express.",
     "image": "https://i.pinimg.com/1200x/bf/c8/42/bfc84217afa890b7b82f85d6e6e7de42.jpg",
-    "category": "Development"
+    "category": "Fantasy"
   },
   {
     "id": 10,
@@ -107,7 +107,7 @@
     "level": "Beginner",
     "description": "Understand the fundamentals of cybersecurity.",
     "image": "https://i.pinimg.com/1200x/71/aa/cf/71aacf0b0ec1d0ba76be59654fa9bfe4.jpg",
-    "category": "Security"
+    "category": "Cyberpunk"
   },
   {
     "id": 11,
@@ -129,7 +129,7 @@
     "level": "Intermediate",
     "description": "Learn cloud services and deployment using AWS.",
     "image": "https://i.pinimg.com/736x/b2/c4/52/b2c452d3c05ec226124fd0c56a2d9642.jpg",
-    "category": "Cloud"
+    "category": "Surreal"
   },
   {
     "id": 13,
@@ -140,7 +140,7 @@
     "level": "Beginner",
     "description": "Master SQL queries and database concepts.",
     "image": "https://i.pinimg.com/1200x/82/e1/7d/82e17d60b608a6d29c6cf2e21e2c06d4.jpg",
-    "category": "Database"
+    "category": "Vaporwave"
   },
   {
     "id": 14,
@@ -151,6 +151,6 @@
     "level": "Beginner",
     "description": "Introduction to artificial intelligence and its applications.",
     "image": "https://i.pinimg.com/736x/be/ec/a6/beeca6bd372094e5c360b1aefaf6f157.jpg",
-    "category": "AI"
+    "category": "Minimal"
   }
 ]
