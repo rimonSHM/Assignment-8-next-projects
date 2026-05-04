@@ -6,11 +6,16 @@ import Link from "next/link";
 
 const Navbar = () => {
     const userData = authClient.useSession()
-     const user = userData?.user;
-     
-     const handleSignOut = async () => {
+     const user = userData.data?.user;
+
+    
+    const handleSignOut = async () => {
       await authClient.signOut();
-     }
+    }
+    
+     
+    
+    
    
   return (
     <div className="border-b px-2">
@@ -41,27 +46,33 @@ const Navbar = () => {
         </ul>
 
       
-          <div className="flex gap-4">
-        { !user && ( <ul className="flex items-center  text-sm gap-4">
-            <li>
-              <Link href={"/signup"}>SignUp</Link>
-            </li>
-            <li>
-              <Link href={"/signin"}>SignIn</Link>
-            </li>
-          </ul>
-        )}
+       <div className="flex gap-4">
+         { !user && (  <ul className="flex items-center text-sm gap-5">
+          <li>
+            <Link href={"/signup"}>SignUp</Link>
+          </li>
+          <li>
+            <Link href={"/signin"}>SignIn</Link>
+          </li>
+        </ul>
 
-        {user && (<div className="flex gap-3">
-             <Avatar size="sm">
-                 <Avatar.Image alt="John Doe" src={user?.image} referrerPolicy="no-referrer" />
-                 <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
-              </Avatar>
+         )}
 
-              <Button onClick={handleSignOut} size="sm" variant="danger">SignOut</Button>
-             </div>
-        )}
-        </div>
+          {user && (
+              <div className="flex gap-3">
+                <Avatar size="sm">
+        <Avatar.Image alt="John Doe" src={user?.image} referrerPolicy="no-referrer"/>
+        <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
+      </Avatar>
+
+        <Button onClick={handleSignOut} size="sm" className="btn btn-soft btn-primary">SignOut</Button>
+
+              </div>
+
+            )
+          }
+
+       </div>
       
       </nav>
     </div>
