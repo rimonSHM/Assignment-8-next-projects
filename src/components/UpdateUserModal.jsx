@@ -1,20 +1,21 @@
 "use client";
 
+import { authClient } from "@/lib/auth-client";
 import {Envelope} from "@gravity-ui/icons";
 import {Button, Input, Label, Modal, Surface, TextField} from "@heroui/react";
 import { BiEdit, BiUser } from "react-icons/bi";
 
 export function UpdateUserModal() {
 
-    const onSubmit = async (e) => {
+    const onSubmit = async(e) => {
         e.preventDefault();
-        const name = e.target.name.value;
+        const name = e.target.name.value
         const email = e.target.email.value;
-
-        await authClient.updateUser({
-            name,
-            email
-        })
+       
+      await authClient.updateUser({
+        name,
+        email
+      })
         
     }
   return (
