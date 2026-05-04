@@ -121,12 +121,14 @@
 //             <Button onClick={handleGoogleSignIn} variant="outline" className={'w-full'}><GrGoogle></GrGoogle> Sign In with Google</Button>
           
 //     </Card>
+  
 //   );
-// }
+
 
 
 
 "use client";
+import { useState } from "react";
 import { authClient } from "@/lib/auth-client";
 import { Check } from "@gravity-ui/icons";
 import {
@@ -144,12 +146,25 @@ import { GrGoogle } from "react-icons/gr";
 
 export default function SignUpPage() {
   const router = useRouter();
+  const [loading, setLoading] = useState(false);
+
+  // ✅ FIXED: moved outside
+  const handleGoogleSignIn = async () => {
+    try {
+      await authClient.signIn.social({
+        provider: "google",
+      });
+    } catch (err) {
+      console.error(err);
+    }
+  };
 
   const onSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
 
-    const name = e.target.name.value;
-    const email = e.target.email.value;
+    const name = e.target.name.value.trim();
+    const email = e.target.email.value.trim();
     const password = e.target.password.value;
 
     const { data, error } = await authClient.signUp.email({
@@ -163,13 +178,8 @@ export default function SignUpPage() {
     if (!error) {
       router.push("/");
     }
-  };
 
-  // ✅ MOVE THIS OUTSIDE
-  const handleGoogleSignIn = async () => {
-    await authClient.signIn.social({
-      provider: "google",
-    });
+    setLoading(false);
   };
 
   return (
@@ -226,9 +236,9 @@ export default function SignUpPage() {
         </TextField>
 
         <div className="flex gap-2">
-          <Button type="submit">
+          <Button type="submit" disabled={loading}>
             <Check />
-            Submit
+            {loading ? "Submitting..." : "Submit"}
           </Button>
           <Button type="reset" variant="secondary">
             Reset
@@ -236,7 +246,7 @@ export default function SignUpPage() {
         </div>
       </Form>
 
-      <p className="text-center">Or</p>
+      <p className="text-center my-3">Or</p>
 
       <Button
         onClick={handleGoogleSignIn}
@@ -248,3 +258,4 @@ export default function SignUpPage() {
     </Card>
   );
 }
+

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
  
 
-    <footer className="bg-gray-900 text-white p-10">
+    <footer className="bg-gray-900 text-white p-10 mt-24">
      <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
      {/* <div>
       <h2 class="text-2xl font-bold hover:underline">SkillSphere</h2>
