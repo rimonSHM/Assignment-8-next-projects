@@ -7,15 +7,16 @@ import { headers } from 'next/headers'
 // This function can be marked `async` if using `await` inside
 export async function proxy(request) {
 
+   const session = await auth.api.getSession({
+       headers: await headers()
+   })
+  
+    if (!session) {
+       return NextResponse.redirect(new URL('/signin', request.url))
+    }
 
-const session = await auth.api.getSession({
-   headers: await headers ()
-})
+      
 
-
-if (!session) {
-      return NextResponse.redirect(new URL('/signin', request.url))
-}
 
 
 
@@ -23,9 +24,8 @@ if (!session) {
 
  
 export const config = {
-  matcher: ['/my-profile', "/courses/:path"],
+  matcher: ["/my-profile", "/courses/:path"],
 }
-
 
 
 

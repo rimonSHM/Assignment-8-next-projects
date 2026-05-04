@@ -3,15 +3,15 @@ import Link from "next/link";
 
 const Banner = () => {
   return (
-    <div className="bg-[url('https://i.pinimg.com/1200x/8a/fe/83/8afe83b98f339de4c1dd34fde26a86d0.jpg')] h-[60vh] w-full bg-cover bg-no-repeat bg-center flex items-center rounded-lg shadow-2xl">
+    <div className="bg-[url('https://static.vecteezy.com/system/resources/previews/006/518/952/large_2x/down-shot-of-hajee-mohammad-danesh-science-and-technology-university-dinajpur-bangladesh-january-21-2021-free-photo.jpg')] h-[60vh] w-full bg-cover bg-no-repeat bg-center flex items-center rounded-lg shadow-2xl">
       {/* Overlay */}
       <div className="w-full h-full rounded-lg bg-black/50 flex items-center ">
         <div className="max-w-7xl mx-auto px-6 text-white">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 max-w-2xl">
-            Upgrade Your Skills Today
+           Enhance Your Future with TechEduca
           </h1>
           <p className="text-lg md:text-xl mb-6 max-w-xl text-gray-200">
-            Generate high-quality images from simple text prompts.
+           Lorem ipsum dolor sit amet consectetur adipsicing elit Perspiciatis neque sucsipit aut ullam quisquam laborisoam quos, molestias optis tenetur nobis vel sint quis venima molestiae nemo deserunt autem!
           </p>
 
           <div className="flex gap-4">
